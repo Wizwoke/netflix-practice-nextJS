@@ -24,6 +24,7 @@ const Header = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
           width={100}
           height={100}
+          alt="/"
           className="cursor-pointer object-contain"
         />
         <ul className="hidden space-x-4 md:flex">
@@ -41,7 +42,7 @@ const Header = () => {
         <Link href="/account">
           <img
             src="https://rb.gy/g1pwyx"
-            alt="account logo"
+            alt="/"
             className="cursor-pointer rounded"
           />
         </Link>
